@@ -25,6 +25,7 @@ def reduce (source_array, starting_point = nil)
   end
   while i < source_array. length do
   total =  yield(total, i)
+  i+=1
   end 
 total
 end
