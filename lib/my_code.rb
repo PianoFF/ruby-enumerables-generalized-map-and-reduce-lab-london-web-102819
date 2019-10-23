@@ -1,4 +1,10 @@
 # Your Code Here
 def map(source_array)
-  yield source_array.each { |n| }
+  ary =[ ]
+  source_array.each do |i|
+    ary << yield(i) 
+  end
+  ary
+end
+
   
