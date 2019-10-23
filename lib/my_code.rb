@@ -15,10 +15,16 @@ end
 #   ary
 # end
 
-def reduce (source_array, starting_point=false )
-  total = starting_point 
-  source_array.each { |i|
- total =  yield(total, i) 
-}
+def reduce (source_array, starting_point = nil)
+  if starting_point != nil
+    total= starting_point
+    i=0#for the loop counter
+  else
+    total = source_array[0]
+    i = 1
+  end
+  while i < source_array. length do
+  total =  yield(total, i)
+  end 
 total
 end
