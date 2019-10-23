@@ -18,7 +18,7 @@ end
 def reduce (source_array, starting_point = nil)
   if starting_point != nil
     total= starting_point
-    i=0#for the loop counter
+    #for the loop counter
   else
     total = source_array[0]
     i = 1
