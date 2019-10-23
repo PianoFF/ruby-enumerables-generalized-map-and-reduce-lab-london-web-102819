@@ -15,7 +15,7 @@ end
 #   ary
 # end
 
-def reduce (source_array, starting_point.default)
+def reduce (source_array, starting_point=nil)
   total = starting_point 
   source_array.each { |i|
  total =  yield(total, i) 
