@@ -7,4 +7,8 @@ def map(source_array)
   ary
 end
 
-  
+# def map(source_array)
+#   ary =[ ]
+#   source_array.each { |i| ary << yield(i) }
+#   ary
+# end
