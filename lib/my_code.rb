@@ -9,6 +9,8 @@ end
 # Baby_K fancy solution. same solution, different syntax 
 # def map(source_array)
 #   ary =[ ]
-#   source_array.each { |i| ary << yield(i) }
+  # source_array.each { |i| 
+  #   ary << yield(i) 
+  # }
 #   ary
 # end
